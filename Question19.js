@@ -4,4 +4,10 @@
 */
 
 const num = 12345;
+let sum=0;
+let str=num.toString()
+for (let i=0;i<str.length; i++) {
+   sum+=parseInt(str[i]);
+}
+console.log(sum)
 

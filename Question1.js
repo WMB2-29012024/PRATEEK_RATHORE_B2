@@ -4,4 +4,11 @@
 */
 
 const numArr = [1, 2, 3, 4, 5];
-
+let multiplied=(arr)=>{
+    let multi=[];
+    for(let i=0;i<arr.length;i++){
+        multi.push([arr[i] * 2]);
+    }
+    console.log(multi);
+}
+multiplied(numArr);

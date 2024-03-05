@@ -5,3 +5,11 @@
 
 const numArr = [10, 2, 9, 8, 6, 12, 20, 30, 4, 50];
 
+let even_num=(arr)=>{
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]%2===0){
+            console.log(arr[i]);
+        }
+    }
+}
+even_num(numArr);

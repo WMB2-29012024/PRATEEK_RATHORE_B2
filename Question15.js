@@ -5,3 +5,10 @@
 
 const strArr = ["banana", "apple", "orange", "grape", "kiwi"];
 
+for (let i = 0; i < strArr.length; i++) {
+    if(strArr[i].endsWith('e')){
+        console.log(strArr[i]);
+    }
+    }
+    
+ 

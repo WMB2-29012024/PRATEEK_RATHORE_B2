@@ -5,4 +5,13 @@
 
 const arr = ["apple", "banana", "orange", "grape"];
 const target = "orange";
+ 
 
+let index=-1;
+for(let i=0;i<arr.length;i++){
+    if(target === arr[i]){
+        index=i;
+        console.log(index) ;
+        break;
+    }
+}
