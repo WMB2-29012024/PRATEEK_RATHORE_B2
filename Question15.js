@@ -4,3 +4,6 @@
 */
 
 // Use the .toLowerCase() method
+let str="a new string with words.";
+let newstr=str.toLowerCase(str)
+console.log(newstr)

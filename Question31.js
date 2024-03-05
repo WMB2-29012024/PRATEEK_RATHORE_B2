@@ -4,3 +4,6 @@
 */
 
 // Use the .codePointAt() method
+let str="Hello, World!";
+let newstr= str. codePointAt(6);
+console.log(newstr)

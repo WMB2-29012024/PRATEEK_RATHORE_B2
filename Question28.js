@@ -4,3 +4,6 @@
 */
 
 // Use the .at() method with a negative index
+let str="   a new string with words.    ";
+let newstr= str.at(6);
+console.log(newstr)

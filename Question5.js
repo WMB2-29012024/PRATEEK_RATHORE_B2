@@ -4,3 +4,6 @@
 */
 
 
+let str="3.14";
+let num=parseFloat(str);
+console.log(num);

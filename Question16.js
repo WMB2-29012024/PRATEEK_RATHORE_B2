@@ -4,3 +4,6 @@
 */
 
 // Use the .split() method
+let str="a new string with words.";
+let newstr= str.split(' ');
+console.log(newstr)

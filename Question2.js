@@ -3,4 +3,6 @@
 /* Question 2:  For this number 5.123456, show only 3 significant digits using toPrecision() method.
 */
 
-
+let number =5.123456;
+let newnum=number.toPrecision(3);
+console.log(newnum); 

@@ -4,3 +4,6 @@
 */
 
 // Use the .toUpperCase() method
+let str="a new string with words.";
+let newstr=str.toUpperCase(str)
+console.log(newstr)

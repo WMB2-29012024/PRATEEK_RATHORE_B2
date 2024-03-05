@@ -2,5 +2,7 @@
       
 /* Question 10: Check and log, if the value 9007199254740991 is a safe integer in JavaScript using Number.isSafeInteger().
 */
-
+let safenum= 9007199254740991;
+let newsafe=Number.isSafeInteger(safenum);
+console.log(newsafe)
 

@@ -4,3 +4,6 @@
 */
 
 // Use the .charAt() method with a positive index
+let str="Hello, World!";
+let newstr= str.charAt(2);
+console.log(newstr)

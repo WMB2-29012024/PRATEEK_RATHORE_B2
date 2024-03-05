@@ -4,3 +4,6 @@
 */
 
 // Use the .replaceAll() method with a string
+let str="Hello, World!";
+let newstr= str.replaceAll('l', 'z');
+console.log(newstr)

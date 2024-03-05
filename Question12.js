@@ -2,5 +2,5 @@
       
 /* Question 12: Log the minimum safe integer value in JavaScript by using Number.MIN_SAFE_INTEGER method.
 */
-
+console.log(Number.MIN_SAFE_INTEGER)
 

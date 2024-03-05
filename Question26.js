@@ -4,3 +4,6 @@
 */
 
 // Use the .trimEnd() method
+let str="   a new string with words.  @!   ";
+let newstr= str.trimEnd();
+console.log(newstr)

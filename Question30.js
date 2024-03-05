@@ -4,3 +4,6 @@
 */
 
 // Use the .charCodeAt() method
+let str="Hello, World!";
+let newstr= str.charCodeAt(2);
+console.log(newstr)

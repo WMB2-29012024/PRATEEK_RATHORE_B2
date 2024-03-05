@@ -4,3 +4,6 @@
 */
 
 // Use the .trimStart() method
+let str="   a new string with words.    ";
+let newstr= str.trimStart();
+console.log(newstr)
