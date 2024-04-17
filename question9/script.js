@@ -13,10 +13,10 @@ const fetchFuntion =async(URL)=>{
   
 } 
 
- const searchData =( input ,keys) =>{
-    const searhvalue=input.target.value;
-    const filtereddata=
- }
+//  const searchData =( input ,keys) =>{
+//     const searhvalue=input.target.value;
+//     const filtereddata=
+//  }
 
 
 const renderFuntion =(array)=>{
