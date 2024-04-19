@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+ main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.leftSection img{
+    margin-left: 10px;
+    padding: 10px;
+    object-fit: cover;
+    height: 60px;
+    width: 70px;
+  
+}
+.rightSection{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  width: 390px;
+  
+  margin-right: 10px;
+ 
+  /* background-color: rgb(84, 105, 124); */
+}
+.rightSection .allLinks{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    /* justify-content: space-around; */
+    
+    >a{
+        color: white;
+        text-decoration: none;  
+    }
+}
+.hameburger h2{
+    display: flex;
+    align-items: center;
+    color: white;
+    display: none;
+     
+}
+.aside{
+     
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 90%;
+    width: 290px;
+    background-color: black;
+    display: none;
+    >a{
+        margin-left: 20px;
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        color: white;
+        text-decoration: none;  
+    }
+
+}
+
+@media (width <= 650px) {
+     
+    .allLinks a{
+        display: none;
+    }
+}
+@media (width <= 650px) {  
+.rightSection .hameburger h2{
+    display:block;
+}
+}
