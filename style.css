@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 52px;
+    background-color: rebeccapurple;
+}
+
+.container {
+    height: calc(100vh - 52px);
+    width: 100%;
+    background-color:  #F4F2EE;
+    margin: 24px auto;
+    
+    >.content-container {
+        width: 1128px;
+        margin: 0 auto;
+        background-color: yellow;
+
+
+        >section {
+            height: 50px;
+            width: 804px;
+            background-color: rgb(22, 22, 21);
+
+            >.coverPhoto {
+                position: relative;
+                height: 201px;
+                background-color: rgb(173, 226, 173);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* justify-content: flex-end; */
+                /* padding: 20px; */
+                overflow: hidden;
+
+                >#editBtn-lebel {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50%;
+                    background-color: white;
+                }
+               
+                >#preview{
+                    display: none;
+                    width: 100%;
+                }
+
+                >#editBtn {
+                    display: none;
+                }
+
+
+            }
+
+
+
+
+
+            .mainProfile {
+                cursor: pointer;
+                border: 5px solid white;
+                display: flex;
+                align-items: center;
+                justify-content:end;
+                height: 152px;
+                width: 152px;
+                background-color: red;
+                position: absolute;
+                top: 170px;
+                left: 230px;
+                border-radius: 50%;
+
+            }
+            >.mainPopUpDisplay{
+                position: absolute;
+                top: 25%;
+                left: 26%;
+                height: 388px;
+                width: 744px;
+                display: none;
+                background-color: black;
+                >.topsection{
+                    color: white;
+                    padding: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 44px;
+                    width: 744px;
+                    background-color: rgb(11, 11, 11);
+                }
+            }
+        }
+
+        >aside {
+            width: 300px;
+            background-color: rgb(55, 55, 22);
+        }
+    }
+}
