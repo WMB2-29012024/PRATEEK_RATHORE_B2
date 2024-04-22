@@ -61,17 +61,25 @@ nav{
      
     display: flex;
     flex-direction: column;
-    gap: 20px;
     height: 90%;
-    width: 290px;
+    width: 0px;
     background-color: black;
-    display: none;
-    >a{
-        margin-left: 20px;
+    column-gap: 20px;
+    /* display: none; */
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1)1s;
+
+    >.asideLinks{
         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 30%;
+        width: 290px;
+        /* background-color: rgb(67, 144, 212); */
+    }
+    >.asideLinks a{
+        margin-left: 30px;
         margin-top: 15px;
-        align-items: center;
-        color: white;
+       color: white;
         text-decoration: none;  
     }
 
@@ -87,4 +95,8 @@ nav{
 .rightSection .hameburger h2{
     display:block;
 }
+@media (width >= 650px) {  
+    .rightSection .hameburger h2{
+        display:none;
+    }
 }
