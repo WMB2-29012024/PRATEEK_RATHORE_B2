@@ -27,23 +27,33 @@
                     <input id="editBtn" type="file" accept="image/">
                 </div>
 
-                <div class="mainProfile"> </div>
+                <div class="mainProfile"> 
+                    <img id="user-img" src="#" alt="jjjj">
+                </div>
                 <div class="mainPopUpDisplay">
                     <div class="topSection">
                         <p>Profile Photo</p>
                         <i class="ri-close-large-fill"></i>
                     </div>
                     <div class="middleSection">
-                        <div class="circle"></div>
+                        <div class="circle">
+
+                            <video id="preview-video" autoplay></video>
+                            <img id="user-preview-img" src="#" alt="">
+                        </div>
                     </div>
-                    <div class="bottomSection"></div>
+                    <div class="bottomSection">
+                        
+                        <label id="user-profile-input-lebel" for="user-profile-input"><i class="ri-pencil-line"></i></label>
+                        <input id="user-profile-input" type="file" accept="image/">
+                    </div>
                 </div>
             </section>
             <aside></aside>
         </div>
 
     </div>
-    <script src="script.js"></script>
+    <script type= "module"  src="script.js"></script>
 </body>
 
 </html>
