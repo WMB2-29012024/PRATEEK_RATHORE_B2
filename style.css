@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+    padding: 41px 100px;
+    height: 50px;
+    width: 100vw;
+    background-color: #FBFBFB;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    /* background-color: antiquewhite; */
+    height: 29px;
+    width: 121px;
+}
+
+.links-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 640px;
+    height: 31.54px;
+    /* background-color: aqua; */
+
+}
+
+.links {
+    outline: none;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.navIcons {
+    width: 110px;
+    height: 31.54px;
+    /* background-color: rgb(247, 181, 96); */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userIcon,
+.cartIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
+    /* background-color: blanchedalmond; */
+    border-radius: 50%;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FBFBFB;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 47px;
+    height: 97px;
+    width: 462px;
+    font-family: "Poppins", sans-serif;
+    /* background-color: black; */
+    margin-bottom: 25px;
+}
+
+.contact-info {
+    display: flex;
+    width: 1196px;
+    height: 667px;
+    /* background-color: rgb(54, 138, 212); */
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 40px;
+    width: 491px;
+    background-color: black;
+    color: #fff;
+}
+
+.topText {
+    height: 200px;
+
+}
+
+.left h1 {
+    /* background-color: red; */
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+
+
+}
+
+.left h4 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.midText {
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 337px;
+    height: 196px;
+
+}
+
+.number,
+.email,
+.location {
+    display: flex;
+    gap: 20px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 30px;
+
+}
+
+.social-media-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1B1B1B;
+
+}
+
+#insta-icon {
+    background-color: #fff;
+}
+
+.right {
+    width: 100%;
+    /* background-color: yellow; */
+    background-color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 80px 100px;
+}
+
+.fullname {
+    /* background-color: #FBFBFB; */
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.fname,
+.lname {
+
+    color: #8D8D8D;
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    height: 55px;
+}
+
+.fname #firstname,
+#lastname {
+
+    width: 278px;
+    border: 0;
+    border-bottom: 1px solid rgb(121, 120, 120);
+    outline: none;
+}
+
+.email-number {
+    /* background-color: #9facd4; */
+    display: flex;
+    gap: 30px;
+
+}
+
+.emailInput,
+.numberInput {
+    color: #8D8D8D;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+
+    width: 278px;
+    height: 55px;
+}
+
+#email,
+#number {
+    width: 278px;
+    border: 0;
+    border-bottom: 1px solid rgb(121, 120, 120);
+    outline: none;
+}
+
+
+.radioButtons {
+    /* background-color: #8D8D8D; */
+    width: 520px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    >.radiotext h4 {
+        /* margin-bottom: 20px; */
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    >.radioInput {
+
+        display: flex;
+        justify-content: space-between;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+}
+
+
+.messagebox {
+
+    width: 595px;
+    height: 56px;
+    top: 652px;
+    left: 673px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+
+    h6 {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+    #message {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        line-height: 50px;
+    }
+}
+
+.sendmessBtn {
+    text-align: right;
+    >#sendmess{
+        /* line-height: 30px; */
+        width: 214pxpx;
+        padding: 15px 48px 15px 48px;
+        gap: 10px;
+        border-radius: 5px 0px 0px 0px;
+        opacity: 0px;
+        height: 54pxpx;
+        color: #fff;
+        background-color: black;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+}
