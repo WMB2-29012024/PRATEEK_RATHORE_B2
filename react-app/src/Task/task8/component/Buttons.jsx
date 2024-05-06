@@ -1,0 +1,12 @@
+ 
+import React from "react";
+
+const Buttons = ({ count, setCount }) => {
+    return (
+        <div>
+            <button onClick={() => setCount(count + 1)}>Increase</button>
+            <button onClick={() => setCount(count - 1)}>Decrease</button>
+        </div>
+    );
+};
+export default Buttons;

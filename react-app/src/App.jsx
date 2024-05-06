@@ -1,6 +1,6 @@
 import React from 'react';
  
-import Task from './Task/task6/Task';
+import Task from './Task/task7/Task';
 
 function App() {
   return (
