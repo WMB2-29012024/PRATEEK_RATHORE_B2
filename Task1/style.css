@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 200px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+ 
+.hidden{
+    display: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 120px;
+    background-color: aquamarine;
+ }
+ .toptoolbtn{
+    padding: 5px;
+    height: 30px;
+    width: 120px;
+    background-color: antiquewhite;
+ }
+.toptoolbtn::after{
+    .hidden{
+        display:inline;
+    }
+}
+ .hiddenBottom{
+    display: none;
+    padding: 5px;
+     height: 30px;
+     width: 120px;
+     background-color: rgb(60, 64, 200);
+    }
+    .Bottomtoolbtn{
+        padding: 5px;
+        height: 30px;
+        margin-bottom: 10px;
+    width: 120px;
+    background-color: rgb(207, 127, 22);
+ }
+
