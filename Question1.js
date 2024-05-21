@@ -16,8 +16,7 @@ const mostRepeatNum = (nums) => {
             mostFrequentNum = nums[i];  
         }
     }
-// console.log(obj);
-// return mostFrequentNum;
+ 
 };
 console.log(mostFrequentNum);
 }
